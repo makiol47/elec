@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ElektroNarzedzia.WiertarkoWkretarka.WkreWier">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pol_pl_wiertarko_wkretarka_akumulatorowa_wkretarka_18v_dedra_sas_all_ded7142_50nm_13mm_z_funkcja_udaru_bezszczotkowa_23029_2"
+            android:layout_alignParentStart="true" android:layout_marginStart="0dp"
+            android:layout_alignParentTop="true" android:layout_marginTop="-204dp" android:id="@+id/imageView31"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="66dp"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="1dp"/>
+    <TextView
+            android:text="Wkrętarka to narzędzie elektryczne do wkręcania i odkręcania śrub w różnych materiałach."
+            android:layout_width="match_parent"
+            android:layout_height="290dp" android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="1dp" android:id="@+id/textView32"
+            android:textSize="24sp"/>
+</RelativeLayout>

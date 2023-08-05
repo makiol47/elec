@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ElektroNarzedzia.WiertarkaStolowa.WierStolowa">
+    <ImageView
+            android:layout_width="316dp"
+            android:layout_height="520dp" app:srcCompat="@drawable/proma_wiertarka_25401303"
+            android:layout_alignParentStart="true" android:layout_marginStart="37dp"
+            android:layout_alignParentTop="true" android:layout_marginTop="2dp" android:id="@+id/imageView32"
+            android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+            android:layout_marginBottom="209dp"/>
+    <TextView
+            android:text="Wiertarka służy głównie do wiercenia otworów w większych, cięższych materiałach, gdzie precyzja i stabilność są kluczowe, umożliwiając powtarzalne wiercenie w tych samych miejscach i kontrolę głębokości wiercenia. Jest często wykorzystywana w warsztatach stolarskich, metalowych oraz w przemyśle meblarskim."
+            android:layout_width="match_parent"
+            android:layout_height="208dp" android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="0dp" android:id="@+id/textView31"
+            android:textSize="20sp"/>
+</RelativeLayout>

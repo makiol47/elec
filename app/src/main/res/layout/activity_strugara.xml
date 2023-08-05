@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ElektroNarzedzia.Strugarka.Strugara">
+
+    <ImageView
+            android:layout_width="409dp"
+            android:layout_height="587dp" app:srcCompat="@drawable/_62340201_e0bb"
+            android:layout_alignParentStart="true" android:layout_marginStart="2dp"
+            android:layout_alignParentTop="true" android:layout_marginTop="-90dp" android:id="@+id/imageView27"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="-1dp"/>
+    <TextView
+            android:text="Strugarka służy do obróbki drewna, metalu lub innych materiałów poprzez usuwanie cienkich warstw, aby uzyskać gładkie, równoległe powierzchnie i odpowiednie kształty dla różnych zastosowań, takich jak produkcja mebli, elementów konstrukcyjnych i detali rzemieślniczych."
+            android:layout_width="match_parent"
+            android:layout_height="308dp" android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="5dp" android:id="@+id/textView27"
+            android:textSize="24sp"/>
+</RelativeLayout>

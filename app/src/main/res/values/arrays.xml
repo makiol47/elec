@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="units_array">
+        <item>Ampere to Milliampere</item>
+        <item>Kilowatt to Watt</item>
+        <item>Milliampere to Ampere</item>
+        <item>Ampere to Microampere</item>
+        <item>Farad to Microfarad</item>
+        <item>Microampere to Ampere</item>
+        <item>Ampere to Kilowatt</item>
+        <item>Millicoulomb to Microcoulomb</item>
+        <item>Kilowatt to Megawatt</item>
+        <item>Nanowatt to Milliwatt</item>
+        <item>Microampere to Nanoampere</item>
+        <item>Watt to Kilowatt</item>
+        <item>Kilowatt to Mechanical Horsepower</item>
+    </string-array>
+</resources>

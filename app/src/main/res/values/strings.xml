@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ElekApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_prawo_ohma">Prawo Ohma</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_moc_czynna">MocCzynna</string>
+    <string name="title_activity_kalkulator"></string>
+    <string name="title_activity_moc"></string>
+    <string name="title_activity_spadkiu"></string>
+    <string name="title_activity_miedz"></string>
+    <string name="title_activity_oswietlenie"></string>
+    <string name="title_activity_konwersja"></string>
+    <string name="title_activity_doborprzekroju"></string>
+    <string name="title_activity_elekt_narzedzia"/>
+    <string name="title_activity_elektro_narzedzia"/>
+    <string name="title_activity_elektr_narzedzia"/>
+    <string name="title_activity_bruzd"/>
+    <string name="title_activity_elektnarzedzia"/>
+    <string name="title_activity_optyczny">Optyczny</string>
+    <string name="title_activity_gilotyna_metal"/>
+</resources>

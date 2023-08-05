@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <EditText
+                    android:id="@+id/searchEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Wyszukaj..."
+                    android:inputType="text"
+                    android:imeOptions="actionDone"
+                    android:imeActionLabel="Done" />
+
+        <Button
+                android:text="Bruzdownica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button1"
+                android:onClick="onClickBruzdownica"/> //
+
+        <Button
+                android:text="Dalmierz Laserowy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button4"
+                android:onClick="onClickDalmierzLaserowy"/> //
+
+        <Button
+                android:text="Dalmierz Uldradzwiekowy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button49"
+                android:onClick="onClickDalmierzUltra"/> //
+
+
+        <Button
+                android:text="Dremel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button7"
+                android:onClick="onClickDremel"/> //
+
+        <Button
+                android:text="Frezarka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button8"
+                android:onClick="onClickFrezarka"/> //
+
+        <Button
+                android:text="Gilotyna do metalu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button9"
+                android:onClick="onClickGilotynaMetal"/> //
+
+        <Button
+                android:text="Klucz udarowy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button10"
+                android:onClick="onClickKluczUdarowy"/>//
+
+        <Button
+                android:text="Metrowka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button12"
+                android:onClick="onClickMetrowka"/> //
+        <Button
+                android:text="Młotowiertarka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button13"
+                android:onClick="onClickMlotoWiertarka"/> //
+        <Button
+                android:text="Młot udarowy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button14"
+                android:onClick="onClickMlotUdarowy"/> //
+        <Button
+                android:text="Odkurzacz przemysłowy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button18"
+                android:onClick="onClickOdkurzacz"/> //
+        <Button
+                android:text="Piła tarczowa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button20"
+                android:onClick="onClickPilaTarczowa"/> //
+        <Button
+                android:text="Prasa do zaciskania końcówek kablowych"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button23"
+                android:onClick="onClickPraska"/> //
+        <Button
+                android:text="Strugarka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button25"
+                android:onClick="onClickStrugarka"/> //
+        <Button
+                android:text="Suwmiarka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button27"
+                android:onClick="onClickSuwmiarka"/> //
+        <Button
+                android:text="Szlifierka kątowa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button28"
+                android:onClick="onClickSzlifierka"/> //
+        <Button
+                android:text="Wiertarka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button32"
+                android:onClick="onClickWiertarka"/> //
+        <Button
+                android:text="Wkretarka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button33"
+                android:onClick="onClickWkretarka"/> //
+        <Button
+                android:text="Wiertarka stołowa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button34"
+                android:onClick="onClickWierSto"/> //
+        <Button
+                android:text="Wyrzynarka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button36"
+                android:onClick="onClickWyrzynarka"/> //
+        <Button
+                android:text="Zacieraczka do betonu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button39"
+                android:onClick="onZacieraczkaDoBetonu"/> //
+        <Button
+                android:text="Zestaw kluczy dynamometrycznych"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button47"
+                android:onClick="onClickDynamo"/> //
+        <Button
+                android:text="Zestaw kluczy nasadowych"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button48"
+                android:onClick="onClickNasadka"/>
+
+        <Button android:text="Amperomierz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button62"
+                android:onClick="onClickAmperomierz"/> //
+
+        <Button android:text="Voltomierz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button50"
+                android:onClick="onClickVoltomierz"/> //
+        <Button
+                android:text="Ohmmetr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button61"
+                android:onClick="onClickOhmmetr"/> //
+
+        <Button android:text="Watomierz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button52"
+                android:onClick="onClickWatomierz"/> //
+
+        <Button android:text="Multimetr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button53"
+                android:onClick="onClickMultimetr"/> //
+
+        <Button android:text="Miernik Częstotliwości"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button54"
+                android:onClick="onClickMiernikHz"/> //
+
+        <Button android:text="Miernik izolacji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button55"
+                android:onClick="onClickMiernikizolacji"/> //
+
+        <Button android:text="Analizator mocy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button58"
+                android:onClick="onClickAnalizatormocy"/> //
+
+        <Button android:text="Agregat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button51"
+                android:onClick="onClickAgregat"/> //
+
+        <Button android:text="Spawarka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button64"
+                android:onClick="onClickSpawarka"/> //
+
+        <Button android:text="Ohmmetr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button65"
+                android:onClick="onClickOhmmetr"/>
+
+        <Button android:text="Ohmmetr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button66"
+                android:onClick="onClickOhmmetr"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

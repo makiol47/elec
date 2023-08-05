@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ElektroNarzedzia.Odkurzacze.Odkur">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/odkurzacz_elektryczny_446lx"
+            android:layout_alignParentStart="true" android:layout_marginStart="1dp"
+            android:layout_alignParentTop="true" android:layout_marginTop="-193dp" android:id="@+id/imageView24"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="0dp"/>
+    <TextView
+            android:text="Odkurzacz elektryczny służy do skutecznego i efektywnego odkurzania różnych powierzchni, takich jak dywany, wykładziny, podłogi, meble, tapicerka czy inne miejsca, które mogą gromadzić kurz, brud, sierść, drobiny czy inne zanieczyszczenia."
+            android:layout_width="match_parent"
+            android:layout_height="313dp" android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="0dp" android:id="@+id/textView24"
+            android:textSize="25sp"/>
+</RelativeLayout>

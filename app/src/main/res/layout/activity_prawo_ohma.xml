@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Calc.PrawoOhma.PrawoOhmaActivity">
+
+    <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Resistance"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:hint="Wprowadz R"
+            android:minHeight="48dp"/>
+
+    <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Current"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="68dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/Resistance"
+            android:hint="Wprowadz A"
+            android:minHeight="48dp"/>
+
+    <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Voltage"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="66dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/Current"
+            android:hint="Wprowadz V"/>
+
+    <Button
+            android:text="R="
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resistanceButton"
+            android:layout_marginTop="27dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/Voltage"
+            android:layout_marginStart="2dp"/>
+
+    <Button
+            android:text="I="
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/currentButton"
+            android:layout_marginTop="58dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/resistanceButton"
+            android:layout_marginStart="2dp"/>
+
+    <TextView
+            android:text=" "
+            android:layout_width="279dp"
+            android:layout_height="82dp"
+            android:id="@+id/result"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/voltageButton"
+            android:layout_marginTop="123dp"
+            android:layout_marginStart="3dp"
+            android:gravity="center"
+            android:textSize="30sp"/>
+
+    <Button
+            android:text="U="
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voltageButton"
+            android:layout_marginTop="-106dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/currentButton"
+            android:layout_marginStart="2dp"/>
+
+</RelativeLayout>
